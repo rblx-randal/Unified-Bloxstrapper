@@ -1,1 +1,1 @@
-# Unified-Bloxstrapper
+# Unified Bootstrapper for Bloxstrap/Fishstrap.
