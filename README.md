@@ -16,6 +16,8 @@ Tired of boring ass Roblox launcher interface, Bloxstrap and Fishstrap bootstrap
 - Open-sourced project, meaning you can take, use it, modify it, whatever you want!
 - Flex flex, something, completely up to you!
 
+For more information about each version of Bloxstrapper, check [README2.md](https://github.com/rblx-randal/Unified-Bloxstrapper/blob/main/Every%20single%20Bootstrapper/README2.md)
+
 ## How to install it to Bloxstrap or Fishstrap?
 Depends on how you install it, there's two options;
 
