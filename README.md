@@ -43,3 +43,5 @@ If you still cannot install the theme correctly, or lost, I can't really help, m
 > When Bootstrapper V1 came into existence, it was mostly vibecoded, I don't have the correct knowledge to make a custom theme correctly.
 > Until around V1.1 and V1.2 Prototype, I just rely AI as a suggestion, and maybe some of you guys suggestion as well.
 > If you 100% do not support AI and against it, please don't download any of our bootstrapper, no offense, I'm sorry.
+
+yes i know the code is bullshit, but it works anyway
