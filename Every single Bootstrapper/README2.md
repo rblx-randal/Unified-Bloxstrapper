@@ -15,4 +15,7 @@ all Bootstrapper/Bloxstrapper version:
 - U-Bloxstrapper 2.1 [Minimized]
 - **[BONUS]** Paul E Troia
 
-U = Unified
+--
+
+- **[BONUS]** is typically extra bootstrapper I made, it can vary from outside of Roblox-style to just complete bullshit!!!
+- U = Unified
