@@ -25,7 +25,7 @@ Depends on how you install it, there's two options;
 
 ***Option 1***
 - Download specific bootstrapper version you want and install the files.
-- Go to **C:\Users\[YourPCUsernameHere]\AppData\Local\[APPNAME]\CustomThemes** | Remember to replace **[YourPCUsernameHere]** with your current sign-in username, and **[APPNAME]** should be replaced with **Bloxstrap** or **Fishstrap** depending on what software you use, this is important!!!
+- Go to **%LocalAppData%/Fishstrap/CustomThemes** in file explorer | If you use Bloxstrap instead, replace **"Fishstrap"** in the address bar with **"Bloxstrap"**.
 - Copy or Cut the installed files and paste it over to CustomThemes folder.
 - If you cannot do Option 1 because it's confusing, move to Option 2.
 
