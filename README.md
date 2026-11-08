@@ -20,6 +20,7 @@ For more information about each version of Bloxstrapper, check [README2.md](http
 
 ## How to install it to Bloxstrap or Fishstrap?
 To download a folder [not each individual files, who would do that], use [downgit.github.io/](https://downgit.github.io/)
+
 Depends on how you install it, there's two options;
 
 ***Option 1***
