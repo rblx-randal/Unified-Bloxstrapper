@@ -1,0 +1,20 @@
+<!-- i'd recommended using windows 11 for a complete proper bootstrapper UI design. -->
+<BloxstrapCustomBootstrapper Version="1" Height="220" Width="500" Theme="Dark" IgnoreTitleBarInset="True" Margin="0" >
+	<BloxstrapCustomBootstrapper.Background>
+	<SolidColorBrush Color="#181818" Opacity="1" />
+	</BloxstrapCustomBootstrapper.Background>
+	<!-- Custom bootstrapper examples at https://github.com/bloxstraplabs/custom-bootstrapper-examples [to those reading this and want to modify something here] -->
+	<Image Source="theme://prophunt.png" Margin="0,0,0,50" Opacity="0.25" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="UniformtoFill" />
+	<Rectangle Width="500" Height="60" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,50" Opacity="0.2"><Rectangle.Fill><LinearGradientBrush StartPoint="0,1" EndPoint="0,0"><GradientStop Color="#181818" Offset="1"/><GradientStop Color="#808080" Offset="0"/></LinearGradientBrush></Rectangle.Fill></Rectangle>
+	<Image Source="{Icon}" Name="Logo" Height="100" Width="100" HorizontalAlignment="Center" Margin="0,62.5,0,0" Opacity="0" />
+	<Rectangle Width="500" Height="52" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,0" > <Rectangle.Fill><LinearGradientBrush StartPoint="0.05,0" EndPoint="0.8,15"> <GradientStop Color="#181818" Offset="0.1"/><GradientStop Color="#e34040" Offset="1"/></LinearGradientBrush></Rectangle.Fill></Rectangle>
+	<TitleBar Title="" ShowMinimize="False" ShowClose="False" />
+	<TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Name="StatusText" FontSize="12" Margin="0,0,95,24.5" Opacity="0.6" />
+	<Rectangle Width="500" Height="2" HorizontalAlignment="Center" Margin="0,0,0,50.5" VerticalAlignment="Bottom" Opacity="0.25"><Rectangle.Fill><LinearGradientBrush StartPoint="0.05,0" EndPoint="1,0"><GradientStop Color="#e34040" Offset="1"/><GradientStop Color="#181818" Offset="0"/></LinearGradientBrush></Rectangle.Fill></Rectangle>
+	<ProgressBar Width="502" Height="3" Name="PrimaryProgressBar" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,1,50" />
+	<TextBlock HorizontalAlignment="Right" Name="INFOOOdisabled" FontSize="9.5" FontWeight="Regular" Margin="0,0,95,26.5" Opacity="0" VerticalAlignment="Bottom" Text="Welcome to Polytoria! (67%)" />
+	<TextBlock HorizontalAlignment="Right" Name="INFOOO2" FontSize="10" FontWeight="Regular" Margin="0,0,95,11" VerticalAlignment="Bottom" Opacity="0.2" Text="Launcher v6.70.0" />
+	<Image Source="theme://polytorialogo.png" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="25" Margin="15,0,0,12.5" Opacity="1" />
+	<Image Source="theme://polytoria.png" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Margin="0,0,0,40" Opacity="1" />
+	<Button Content="{Common.Cancel}" Name="CancelButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10.5" Height="30" Width="80" />
+</BloxstrapCustomBootstrapper>

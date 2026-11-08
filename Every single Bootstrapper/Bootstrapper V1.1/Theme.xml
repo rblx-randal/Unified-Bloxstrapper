@@ -1,0 +1,19 @@
+<!-- i'd recommended using windows 11 for a complete proper bootstrapper UI design. -->
+<BloxstrapCustomBootstrapper Version="1" Height="280" Width="500" Theme="Dark" IgnoreTitleBarInset="True" Margin="0" >
+	<BloxstrapCustomBootstrapper.Background>
+	<SolidColorBrush Color="#191a1f" Opacity="1" />
+	</BloxstrapCustomBootstrapper.Background>
+	<!-- Custom bootstrapper examples at https://github.com/bloxstraplabs/custom-bootstrapper-examples [to those reading this and want to modify something here] -->
+	<Image Source="{Icon}" Name="Logo" Height="90" Width="90" HorizontalAlignment="Center" Margin="0,52.5,0,0" />
+	<Rectangle Width="500" Height="51" Fill="#0f1015" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,0" />
+	<Rectangle Width="500" Height="1" HorizontalAlignment="Center" Margin="0,0,0,51" VerticalAlignment="Bottom" Opacity="1"><Rectangle.Fill><LinearGradientBrush StartPoint="0.05,0" EndPoint="0.9,0"><GradientStop Color="#FFFFFF" Offset="1"/><GradientStop Color="#00000000" Offset="0"/></LinearGradientBrush></Rectangle.Fill></Rectangle>
+	<TitleBar Title="" ShowMinimize="False" ShowClose="True" />
+	<Image Source="{Icon}" Name="TitleImage" Height="14" Width="14" HorizontalAlignment="Left" Margin="10,10,0,0" />
+	<TextBlock HorizontalAlignment="Left" Name="Title" FontSize="12" FontWeight="Regular" Margin="30,8,0,0" Opacity="1" Text="Roblox Bootstrapper" />
+	<TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Name="StatusText" FontSize="18" Margin="0,0,0,85" />
+	<ProgressBar Width="400" Height="12" Name="PrimaryProgressBar" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,65" />
+	<TextBlock HorizontalAlignment="Right" Name="INFOOO" FontSize="9.5" FontWeight="Regular" Margin="0,0,95,26.5" Opacity="0.6" VerticalAlignment="Bottom" Text="Preparing Roblox. Should not take longer than 10 seconds." />
+	<TextBlock HorizontalAlignment="Right" Name="INFOOO2" FontSize="9.5" FontWeight="Regular" Margin="0,0,95,13.5" VerticalAlignment="Bottom" Opacity="0.6" Text="If Roblox is updating, it may take up to 2 minutes." />
+	<Image Source="theme://Bloxstrap-full-dark-monochrome.png" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="100" Margin="15,0,0,15" Opacity="1" />
+	<Button Content="{Common.Cancel}" Name="CancelButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10.5" Height="30" Width="80" />
+</BloxstrapCustomBootstrapper>
